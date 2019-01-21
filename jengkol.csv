@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
-Jual Kaos Distro / T-Shirt Casual Pria - PS 173 Murah,ps-173,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargadropship,minimalprice,sku,kondisi
+Jual Kaos Casual Pria - PL 915 Murah,pl-915,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,7 +24,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 173 Murah,ps-173,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -47,7 +47,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 173 Murah,ps-173,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 173 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON.<br/>Kode : PS 173<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = PRINTING WATERBASE COLOR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PL 915 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PL 915<br/>Warna : ABU ABU<br/>Bahan : LACOSTE<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -60,8 +60,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 173 Murah,ps-173,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-173.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 173,Rp 102.900,Rp 118.900,Rp 16.000,PS 173,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 190 Murah,ps-190,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan LACOSTE, Warna ABU ABU, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/pl-915.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PL 915,Rp 142.900,Rp 116.900,Rp 128.900,PL 915,Baru
+Jual Kaos Casual Pria - PL 918 Murah,pl-918,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -86,7 +86,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 190 Murah,ps-190,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -109,7 +109,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 190 Murah,ps-190,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 190 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON.<br/>Kode : PS 190<br/>Warna : COKLAT<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PL 918 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PL 918<br/>Warna : HITAM<br/>Bahan : LACOSTE<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -122,8 +122,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 190 Murah,ps-190,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Ukuran S ~ XL, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-190.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 190,Rp 102.900,Rp 118.900,Rp 16.000,PS 190,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 172 Murah,ps-172,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan LACOSTE, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/pl-918.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PL 918,Rp 142.900,Rp 116.900,Rp 128.900,PL 918,Baru
+Jual Kaos Casual Pria - PL 919 Murah,pl-919,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -148,7 +148,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 172 Murah,ps-172,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -171,7 +171,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 172 Murah,ps-172,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 172 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 172<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = PRINTING WATERBASE COLOR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PL 919 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PL 919<br/>Warna : BIRU NAVY<br/>Bahan : LACOSTE<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -184,8 +184,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 172 Murah,ps-172,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-172.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 172,Rp 102.900,Rp 118.900,Rp 16.000,PS 172,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 185 Murah,ps-185,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan LACOSTE, Warna BIRU NAVY, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/pl-919.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PL 919,Rp 142.900,Rp 116.900,Rp 128.900,PL 919,Baru
+Jual Kaos Casual Pria - PS 198 Murah,ps-198,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -210,7 +210,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 185 Murah,ps-185,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -233,7 +233,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 185 Murah,ps-185,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 185 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON SLUB.<br/>Kode : PS 185<br/>Warna : ABU TUA<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = BAMBOO SLUB<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 198 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 198<br/>Warna : ABU KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = WARNA : ABU MISTY PUTIH NAVY<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -246,8 +246,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 185 Murah,ps-185,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON SLUB, Ukuran S ~ XL, Warna ABU TUA",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-185.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 185,Rp 102.900,Rp 118.900,Rp 16.000,PS 185,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 170 Murah,ps-170,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna ABU KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-198.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 198,Rp 124.900,Rp 100.900,Rp 111.900,PS 198,Baru
+Jual Kaos Casual Pria - PS 194 Murah,ps-194,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -272,7 +272,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 170 Murah,ps-170,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -295,7 +295,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 170 Murah,ps-170,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 170 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 170<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 194 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 194<br/>Warna : BIRU TEAL<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = WARNA : BIRU TEAL + NAVY<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -308,8 +308,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 170 Murah,ps-170,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-170.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 170,Rp 99.900,Rp 114.900,Rp 15.000,PS 170,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 147 Murah,ps-147,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna BIRU TEAL, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-194.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 194,Rp 124.900,Rp 100.900,Rp 111.900,PS 194,Baru
+Jual Kaos Casual Pria - PS 202 Murah,ps-202,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -334,7 +334,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 147 Murah,ps-147,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -357,7 +357,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 147 Murah,ps-147,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 147 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON SLUB.<br/>Kode : PS 147<br/>Warna : HITAM<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 202 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 202<br/>Warna : MARUN KOMBINASI<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = WARNA : PUTIH MAROON<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -370,8 +370,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 147 Murah,ps-147,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON SLUB, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-147.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 147,Rp 99.900,Rp 114.900,Rp 15.000,PS 147,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 181 Murah,ps-181,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna MARUN KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-202.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 202,Rp 124.900,Rp 100.900,Rp 111.900,PS 202,Baru
+Jual Kaos Casual Pria - PS 193 Murah,ps-193,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -396,7 +396,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 181 Murah,ps-181,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -419,7 +419,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 181 Murah,ps-181,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 181 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 181<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 193 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 193<br/>Warna : ORANGE BATA<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -432,8 +432,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 181 Murah,ps-181,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-181.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 181,Rp 102.900,Rp 118.900,Rp 16.000,PS 181,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 174 Murah,ps-174,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna ORANGE BATA, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-193.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 193,Rp 124.900,Rp 100.900,Rp 111.900,PS 193,Baru
+Jual Kaos Casual Pria - PS 147 Murah,ps-147,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -458,7 +458,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 174 Murah,ps-174,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -481,7 +481,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 174 Murah,ps-174,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 174 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 174<br/>Warna : ABU ABU<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 147 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 147<br/>Warna : HITAM<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -494,8 +494,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 174 Murah,ps-174,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-174.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 174,Rp 94.900,Rp 109.900,Rp 15.000,PS 174,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 186 Murah,ps-186,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON SLUB, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-147.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 147,Rp 128.900,Rp 104.900,Rp 115.900,PS 147,Baru
+Jual Kaos Casual Pria - PS 201 Murah,ps-201,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -520,7 +520,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 186 Murah,ps-186,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -543,7 +543,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 186 Murah,ps-186,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 186 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON.<br/>Kode : PS 186<br/>Warna : CREAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = PRC TWOTONE<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 201 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 201<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -556,8 +556,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 186 Murah,ps-186,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Ukuran S ~ XL, Warna CREAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-186.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 186,Rp 94.900,Rp 109.900,Rp 15.000,PS 186,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 178 Murah,ps-178,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-201.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 201,Rp 132.900,Rp 108.900,Rp 119.900,PS 201,Baru
+Jual Kaos Raglan 3/4 Pria - PS 170 Murah,ps-170,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -582,7 +582,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 178 Murah,ps-178,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -605,7 +605,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 178 Murah,ps-178,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 178 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 178<br/>Warna : KUNING<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Raglan 3/4 Pria - PS 170 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 170<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 300 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -618,8 +618,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 178 Murah,ps-178,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna KUNING",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-178.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 178,Rp 94.900,Rp 109.900,Rp 15.000,PS 178,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 180 Murah,ps-180,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-170.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Raglan 3/4 Pria - PS 170,Rp 128.900,Rp 104.900,Rp 115.900,PS 170,Baru
+Jual Kaos Casual Pria - PS 195 Murah,ps-195,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -644,7 +644,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 180 Murah,ps-180,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -667,7 +667,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 180 Murah,ps-180,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 180 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 180<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 195 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 195<br/>Warna : COKLAT<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = BAHAN : PRC<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -680,8 +680,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 180 Murah,ps-180,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-180.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 180,Rp 99.900,Rp 114.900,Rp 15.000,PS 180,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 182 Murah,ps-182,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna COKLAT, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-195.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 195,Rp 128.900,Rp 104.900,Rp 115.900,PS 195,Baru
+Jual Kaos Casual Pria - PS 173 Murah,ps-173,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -706,7 +706,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 182 Murah,ps-182,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -729,7 +729,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 182 Murah,ps-182,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 182 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 182<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 173 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 173<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = PRINTING WATERBASE COLOR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -742,8 +742,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 182 Murah,ps-182,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-182.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 182,Rp 102.900,Rp 118.900,Rp 16.000,PS 182,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 121 Murah,ps-121,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-173.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 173,Rp 132.900,Rp 108.900,Rp 119.900,PS 173,Baru
+Jual Kaos Casual Pria - PS 197 Murah,ps-197,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -768,7 +768,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 121 Murah,ps-121,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -791,7 +791,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 121 Murah,ps-121,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 121 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 121<br/>Warna : ABU ABU<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 197 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 197<br/>Warna : COKLAT<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -804,8 +804,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 121 Murah,ps-121,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-121.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 121,Rp 94.900,Rp 109.900,Rp 15.000,PS 121,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 177 Murah,ps-177,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna COKLAT, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-197.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 197,Rp 124.900,Rp 100.900,Rp 111.900,PS 197,Baru
+Jual Kaos Casual Pria - PS 192 Murah,ps-192,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -830,7 +830,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 177 Murah,ps-177,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -853,7 +853,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 177 Murah,ps-177,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 177 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 177<br/>Warna : MERAH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 192 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 192<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -866,8 +866,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 177 Murah,ps-177,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-177.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 177,Rp 99.900,Rp 114.900,Rp 15.000,PS 177,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 175 Murah,ps-175,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-192.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 192,Rp 124.900,Rp 100.900,Rp 111.900,PS 192,Baru
+Jual Kaos Casual Pria - PS 191 Murah,ps-191,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -892,7 +892,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 175 Murah,ps-175,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -915,7 +915,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 175 Murah,ps-175,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 175 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 175<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 191 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 191<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = BAHAN : MAMBO<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -928,8 +928,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 175 Murah,ps-175,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-175.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 175,Rp 99.900,Rp 114.900,Rp 15.000,PS 175,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 176 Murah,ps-176,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-191.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 191,Rp 128.900,Rp 104.900,Rp 115.900,PS 191,Baru
+Jual Kaos Casual Pria - PS 196 Murah,ps-196,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -954,7 +954,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 176 Murah,ps-176,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -977,7 +977,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 176 Murah,ps-176,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 176 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 176<br/>Warna : COKLAT<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 196 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 196<br/>Warna : HITAM<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -990,8 +990,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 176 Murah,ps-176,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-176.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 176,Rp 94.900,Rp 109.900,Rp 15.000,PS 176,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 184 Murah,ps-184,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-196.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 196,Rp 128.900,Rp 104.900,Rp 115.900,PS 196,Baru
+Jual Kaos Casual Pria - PS 182 Murah,ps-182,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1016,7 +1016,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 184 Murah,ps-184,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1039,7 +1039,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 184 Murah,ps-184,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 184 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON.<br/>Kode : PS 184<br/>Warna : MERAH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = PRC TWOTONE<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 182 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 182<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1052,8 +1052,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 184 Murah,ps-184,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Ukuran S ~ XL, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-184.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 184,Rp 94.900,Rp 109.900,Rp 15.000,PS 184,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 183 Murah,ps-183,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-182.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 182,Rp 132.900,Rp 108.900,Rp 119.900,PS 182,Baru
+Jual Kaos Casual Pria - PS 199 Murah,ps-199,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1078,7 +1078,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 183 Murah,ps-183,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1101,7 +1101,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 183 Murah,ps-183,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 183 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON.<br/>Kode : PS 183<br/>Warna : BIRU<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = PRC TWOTONE<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 199 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 199<br/>Warna : BIRU NAVY<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = COUPLE WITH PS 522<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1114,8 +1114,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 183 Murah,ps-183,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Ukuran S ~ XL, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-183.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 183,Rp 94.900,Rp 109.900,Rp 15.000,PS 183,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 179 Murah,ps-179,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna BIRU NAVY, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-199.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 199,Rp 124.900,Rp 100.900,Rp 111.900,PS 199,Baru
+Jual Kaos Casual Pria - PS 159 Murah,ps-159,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1140,7 +1140,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 179 Murah,ps-179,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1163,7 +1163,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 179 Murah,ps-179,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 179 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : PS 179<br/>Warna : BIRU NAVY<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 159 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 159<br/>Warna : PUTIH HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = COUPLE WITH PS 512<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1176,8 +1176,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 179 Murah,ps-179,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-179.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 179,Rp 94.900,Rp 109.900,Rp 15.000,PS 179,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 188 Murah,ps-188,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COMBAD, Warna PUTIH HITAM, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-159.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 159,Rp 124.900,Rp 100.900,Rp 111.900,PS 159,Baru
+Jual Kaos Casual Pria - PS 189 Murah,ps-189,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1202,7 +1202,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 188 Murah,ps-188,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1225,7 +1225,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 188 Murah,ps-188,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 188 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON.<br/>Kode : PS 188<br/>Warna : MERAH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = BAMBOO STRIPE<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - PS 189 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : PS 189<br/>Warna : PUTIH<br/>Bahan : COTTON<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = COUPLE WITH PS 520<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1238,8 +1238,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 188 Murah,ps-188,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Ukuran S ~ XL, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-188.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 188,Rp 94.900,Rp 109.900,Rp 15.000,PS 188,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - PS 187 Murah,ps-187,"
+     </div><!--/category-tab-->",2019-01-16,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-catenzo-2019/foto-produk-satuan/ps-189.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - PS 189,Rp 124.900,Rp 100.900,Rp 111.900,PS 189,Baru
+Jual Kaos Raglan 3/4 Pria - RPS 031 Murah,rps-031,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1264,7 +1264,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 187 Murah,ps-187,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1287,7 +1287,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 187 Murah,ps-187,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - PS 187 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON SLUB.<br/>Kode : PS 187<br/>Warna : BIRU<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = BAMBOO SLUB<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Raglan 3/4 Pria - RPS 031 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 031<br/>Warna : PUTIH HITAM<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = COUPLE WITH RPS 205<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1300,8 +1300,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - PS 187 Murah,ps-187,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-25,html,kaos-pria,catenzo,kaos-pria,catenzo,"Kaos Pria Bahan COTTON SLUB, Ukuran S ~ XL, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2018/foto-produk-satuan/ps-187.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - PS 187,Rp 102.900,Rp 118.900,Rp 16.000,PS 187,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 028 Murah,rps-028,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON SLUB, Warna PUTIH HITAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-031.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Raglan 3/4 Pria - RPS 031,Rp 128.900,Rp 104.900,Rp 115.900,RPS 031,Baru
+Jual Kaos Casual Pria - RPS 038 Murah,rps-038,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1326,7 +1326,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 028 Murah,rps-028,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1349,7 +1349,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 028 Murah,rps-028,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 028 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 028<br/>Warna : ABU MISTY<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 038 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 038<br/>Warna : ABU ABU<br/>Bahan : COTTON COMBED<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1362,8 +1362,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 028 Murah,rps-028,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna ABU MISTY",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-028.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 028,Rp 94.900,Rp 109.900,Rp 15.000,RPS 028,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 034 Murah,rps-034,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON COMBED, Warna ABU ABU, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-038.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 038,Rp 128.900,Rp 104.900,Rp 115.900,RPS 038,Baru
+Jual Kaos Casual Pria - RPS 039 Murah,rps-039,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1388,7 +1388,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 034 Murah,rps-034,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1411,7 +1411,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 034 Murah,rps-034,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 034 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON SLUB.<br/>Kode : RPS 034<br/>Warna : BIRU NAVY<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 039 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 039<br/>Warna : PUTIH KOMBINASI<br/>Bahan : COTTON COMBED<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1424,8 +1424,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 034 Murah,rps-034,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON SLUB, Ukuran S ~ XL, Warna BIRU NAVY",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-034.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 034,Rp 94.900,Rp 109.900,Rp 15.000,RPS 034,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 029 Murah,rps-029,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON COMBED, Warna PUTIH KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-039.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 039,Rp 128.900,Rp 104.900,Rp 115.900,RPS 039,Baru
+Jual Kaos Casual Pria - RPS 042 Murah,rps-042,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1450,7 +1450,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 029 Murah,rps-029,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1473,7 +1473,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 029 Murah,rps-029,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 029 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 029<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 042 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 042<br/>Warna : BIRU TEAL<br/>Bahan : COTTON COMBED<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1486,8 +1486,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 029 Murah,rps-029,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-029.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 029,Rp 94.900,Rp 109.900,Rp 15.000,RPS 029,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 033 Murah,rps-033,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON COMBED, Warna BIRU TEAL, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-042.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 042,Rp 124.900,Rp 100.900,Rp 111.900,RPS 042,Baru
+Jual Kaos Casual Pria - RPS 514 Murah,rps-514,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1512,7 +1512,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 033 Murah,rps-033,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1535,7 +1535,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 033 Murah,rps-033,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 033 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 033<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 514 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 514<br/>Warna : BIRU NAVY<br/>Bahan : LACOSTE<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1548,8 +1548,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 033 Murah,rps-033,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-033.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 033,Rp 94.900,Rp 109.900,Rp 15.000,RPS 033,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 032 Murah,rps-032,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan LACOSTE, Warna BIRU NAVY, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-514.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 514,Rp 142.900,Rp 116.900,Rp 128.900,RPS 514,Baru
+Jual Kaos Casual Pria - RPS 515 Murah,rps-515,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1574,7 +1574,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 032 Murah,rps-032,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1597,7 +1597,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 032 Murah,rps-032,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 032 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 032<br/>Warna : PUTIH<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 515 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 515<br/>Warna : ABU KOMBINASI<br/>Bahan : LACOSTE<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1610,8 +1610,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 032 Murah,rps-032,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna PUTIH",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-032.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 032,Rp 99.900,Rp 114.900,Rp 15.000,RPS 032,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 036 Murah,rps-036,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan LACOSTE, Warna ABU KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-515.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 515,Rp 142.900,Rp 116.900,Rp 128.900,RPS 515,Baru
+Jual Kaos Casual Pria - RPS 041 Murah,rps-041,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1636,7 +1636,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 036 Murah,rps-036,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1659,7 +1659,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 036 Murah,rps-036,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 036 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON SLUB.<br/>Kode : RPS 036<br/>Warna : MERAH<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 041 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 041<br/>Warna : COKLAT<br/>Bahan : COTTON COMBED<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1672,8 +1672,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 036 Murah,rps-036,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON SLUB, Ukuran S ~ XL, Warna MERAH",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-036.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 036,Rp 99.900,Rp 114.900,Rp 15.000,RPS 036,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 030 Murah,rps-030,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON COMBED, Warna COKLAT, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-041.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 041,Rp 124.900,Rp 100.900,Rp 111.900,RPS 041,Baru
+Jual Kaos Casual Pria - RPS 040 Murah,rps-040,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1698,7 +1698,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 030 Murah,rps-030,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1721,7 +1721,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 030 Murah,rps-030,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 030 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 030<br/>Warna : MARUN<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 040 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 040<br/>Warna : PUTIH<br/>Bahan : COTTON COMBED<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1734,8 +1734,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 030 Murah,rps-030,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna MARUN",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-030.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 030,Rp 99.900,Rp 114.900,Rp 15.000,RPS 030,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-017,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON COMBED, Warna PUTIH, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-040.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 040,Rp 132.900,Rp 108.900,Rp 119.900,RPS 040,Baru
+Jual Kaos Casual Pria - RPS 029 Murah,rps-029,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1760,7 +1760,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-017,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1783,7 +1783,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-017,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 017 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 017<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 029 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 029<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1796,8 +1796,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-017,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-017.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 017,Rp 99.900,Rp 114.900,Rp 15.000,RPS 017,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-035,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-029.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 029,Rp 124.900,Rp 100.900,Rp 111.900,RPS 029,Baru
+Jual Kaos Casual Pria - RPS 017 Murah,rps-017,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1822,7 +1822,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-035,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1845,7 +1845,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-035,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 017 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COTTON SLUB.<br/>Kode : RPS 035<br/>Warna : ABU ABU<br/>Bahan : COTTON SLUB<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 017 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 017<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1858,8 +1858,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-035,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON SLUB, Ukuran S ~ XL, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-035.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 017,Rp 102.900,Rp 118.900,Rp 16.000,RPS 035,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-037,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-017.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 017,Rp 128.900,Rp 104.900,Rp 115.900,RPS 017,Baru
+Jual Kaos Casual Pria - RPS 043 Murah,rps-043,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1884,7 +1884,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-037,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1907,7 +1907,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-037,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 017 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 037<br/>Warna : PUTIH KOMBINASI<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Casual Pria - RPS 043 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 043<br/>Warna : BIRU NAVY<br/>Bahan : COTTON COMBED<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1920,8 +1920,8 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-037,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna PUTIH KOMBINASI",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-037.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 017,Rp 102.900,Rp 118.900,Rp 16.000,RPS 037,Baru
-Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-025,"
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COTTON COMBED, Warna BIRU NAVY, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-043.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 043,Rp 128.900,Rp 104.900,Rp 115.900,RPS 043,Baru
+Jual Kaos Lengan Panjang Pria - RPS 025 Murah,rps-025,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1946,7 +1946,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-025,"
           </a>
          </label>
         </span>
-        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
+        {% include dropship-login.html %} 
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include shareit.html %}
@@ -1969,7 +1969,7 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-025,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Kaos Distro / T-Shirt Casual Pria - RPS 017 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Kaos Pria ini terbuat dari bahan COMBAD.<br/>Kode : RPS 025<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 500 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         <p>Kaos Lengan Panjang Pria - RPS 025 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 025<br/>Warna : HITAM<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
@@ -1982,4 +1982,66 @@ Jual Kaos Distro / T-Shirt Casual Pria - RPS 017 Murah,rps-025,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2018-02-26,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Ukuran S ~ XL, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2018/foto-produk-satuan/rps-025.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Distro / T-Shirt Casual Pria - RPS 017,Rp 102.900,Rp 118.900,Rp 16.000,RPS 025,Baru
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Warna HITAM, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-025.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Lengan Panjang Pria - RPS 025,Rp 132.900,Rp 108.900,Rp 119.900,RPS 025,Baru
+Jual Kaos Casual Pria - RPS 037 Murah,rps-037,"
+     <div class=""product-details""><!--product-details-->
+      <div class=""col-sm-5"">
+       <div class=""view-product"">
+        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
+        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
+       </div>
+      </div>
+
+      <div class=""col-sm-7"">
+       <div class=""product-information""><!--/product-information-->
+        <h1>{{ page.product }}</h1>
+        <p>SKU: {{ page.sku }}</p>
+        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
+        <span>
+         <span>{{ page.price }}</span>        
+         <label>Beli:<a href=""{{ site.url }}/beli"" target=""_blank"" title=""Beli Sekarang"">
+           <script type=""text/javascript"">
+   <!--
+   document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%0d%0a%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%0d%0a%09%42%65%6c%69%20%53%65%6b%61%72%61%6e%67%0d%0a%3c%2f%62%75%74%74%6f%6e%3e'));
+   //-->
+   </script>
+          </a>
+         </label>
+        </span>
+        {% include dropship-login.html %} 
+        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
+        <p><b>Deskripsi:</b> {{ page.description }}</p>
+        {% include shareit.html %}
+       </div><!--/product-information-->
+      </div>
+     </div><!--/product-details-->
+     
+     <div class=""category-tab shop-details-tab""><!--category-tab-->
+      <div class=""col-sm-12"">
+       <ul class=""nav nav-tabs"">
+        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
+       </ul>
+      </div>
+      <div class=""tab-content"">
+       <div class=""tab-pane fade active in"" id=""keterangan"" >
+        <div class=""col-sm-12"">
+         <h2>{{ page.product }}</h2>         
+         <ol class=""breadcrumb"">
+            <li class=""active"">Tag :</li>
+            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
+            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
+         </ol>         
+         <p>Kaos Casual Pria - RPS 037 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. <br/>Kode : RPS 037<br/>Warna : PUTIH KOMBINASI<br/>Bahan : COMBAD<br/>Ukuran : S ~ XL<br/>Berat : 400 gram<br/>Info Lainnya = -<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
+         </p>
+
+         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: justify; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
+         Gudang : WRH-1<br>
+         Lokasi : Bandung</p>
+
+         {% include disqus.html %}
+         
+        </div>
+       </div>       
+       
+      </div>
+     </div><!--/category-tab-->",2019-01-17,html,kaos-pria,raindoz,kaos-pria,raindoz,"Kaos Pria Bahan COMBAD, Warna PUTIH KOMBINASI, Size S ~ XL",https://images.lipatan.com/katalog-raindoz-2019/foto-produk-satuan/rps-037.jpg,-/-,-/-,-/-,-/-,-/-,Kaos Casual Pria - RPS 037,Rp 132.900,Rp 108.900,Rp 119.900,RPS 037,Baru
